@@ -1,0 +1,46 @@
+.header {
+	height: 108px;
+	background-color: $w-color;
+	
+	.header__container{
+		display: flex;
+		align-items: center;
+		height: 100%;
+		.header__logo{
+			max-width: 80px;
+			max-height: 80px;
+			margin-right: 65px;
+		}
+		ul{
+			display: flex;
+			list-style: none;
+			li{
+				margin-right: 25px;
+				a{
+					text-decoration: none;
+					color: $ft-color;
+					position: relative;
+
+				}
+				.active {
+					color:  $brand-color;
+					&::after{
+						position: absolute;
+						content: '';
+						width: 90%;
+						height: 4px;
+						background-color: $brand-color;
+						display: block;	
+						position: absolute;
+						bottom: -45px;
+					}
+				}
+				&:last-child{
+					margin: 0;
+				}
+				
+			}
+
+		}
+	}
+}
