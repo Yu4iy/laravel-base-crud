@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>laravel-base-crud</title>
 	<link rel="stylesheet" href="{{asset('css/app.css') }}">
+
 </head>
 <body>
 	{{-- HEADER  --}}

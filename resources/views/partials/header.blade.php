@@ -10,9 +10,16 @@
 					COMICS
 				</a>
 			</li>
+
 			<li>
 				<a href="{{ route('comics.index') }}">
 					SHOP
+				</a>
+			</li>
+
+			<li>
+				<a href="{{ route('comics.create') }}">
+					Admin Panel
 				</a>
 			</li>
 

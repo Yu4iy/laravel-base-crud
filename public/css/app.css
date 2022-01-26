@@ -103,6 +103,24 @@ table {
   padding: 0 10px;
 }
 
+.t {
+  height: calc(100vh - 223px);
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 10px 0;
+}
+
 .header {
   height: 108px;
   background-color: #fff;
